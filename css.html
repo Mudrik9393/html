@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .ab{
+                text-align: center;
+                border-style: groove;
+            }
+            h1{
+                font-size: 150px;
+                background-image: linear-gradient(
+                    to right,blue 0% 23%,
+                    red 23% 40%,
+                    yellow 40% 58%,
+                    blue 58% 75%,
+                    green 75% 83%,
+                    red 83%);
+                    display: inline-block;
+                    -webkit-background-clip:text;
+                    color: transparent;
+                    font-family: "Georgia",Georgia,serif;
+            }
+
+            input[type=text]{
+                width: 50%;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                background-color: white;
+                background-image: url('searchicon.png');
+                background-position: 10px 10px;
+                background-repeat: no-repeat;
+                padding: 12px 20px;
+            }
+
+            .ac{
+                background-color: gray;
+                border: none;
+                color: white;
+                padding: 10px 28px;
+                text-align: center;
+                text-decoration: none;
+                display:inline-block ;
+                font-size: 16px;
+                margin: 6px;
+                cursor: pointer;
+            }
+                
+        </style>
+    </head>
+    <body>
+        <div class="ab">
+            <h1>Google</h1><br>
+            <input type="text" name="searchbar" value=""><br>
+
+                <input type="button" class="ac" value="Google Search">
+                <input type="button" class="ac" value="Im Felling Luck">
+            </div>
+
+        </div>
+
+    </body>
+</html>
